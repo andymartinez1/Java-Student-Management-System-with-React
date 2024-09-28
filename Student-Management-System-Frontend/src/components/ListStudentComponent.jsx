@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { deleteStudent, listStudents } from "../services/StudentService";
 
@@ -40,7 +40,7 @@ const ListStudentComponent = () => {
   return (
     <div className="container">
       <h2 className="text-center my-4">List of Students</h2>
-      <button className="btn btn-primary my-3" onClick={addNewStudent()}>
+      <button className="btn btn-primary my-3" onClick={addNewStudent}>
         Add Student
       </button>
       <table className="table table-striped table-bordered">
