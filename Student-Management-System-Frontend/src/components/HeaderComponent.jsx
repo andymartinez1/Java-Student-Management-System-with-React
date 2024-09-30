@@ -4,10 +4,12 @@ const HeaderComponent = () => {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-dark bg-dark">
-          <a className="navbar-brand" href="/">
-            Student Management System
-          </a>
+        <nav className="navbar navbar-dark bg-dark ">
+          <div className="container-xl">
+            <a className="navbar-brand " href="/">
+              Student Management System
+            </a>
+          </div>
         </nav>
       </header>
     </div>
